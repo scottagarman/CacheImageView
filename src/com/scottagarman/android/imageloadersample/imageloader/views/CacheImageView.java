@@ -15,7 +15,7 @@ import com.scottagarman.android.imageloadersample.imageloader.ImageLoader;
  * the async loading. Supports call canceling for when used in
  * listviews / being recycled.
  */
-public class CacheImageView extends ImageView implements ImageLoader.SYImageLoaderListener{
+public class CacheImageView extends ImageView implements ImageLoader.ImageLoaderListener{
     protected String mImageUrl;
     protected ImageLoader mImageLoader;
     protected CacheImageViewListener mListener;
