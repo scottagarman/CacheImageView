@@ -1,0 +1,34 @@
+# IGNORE ME
+
+# OS
+.DS_Store
+profile
+*~
+Thumbs.db
+
+# VERSION CONTROL
+.svn
+
+# ANDROID GENERATED
+bin/
+gen/
+.settings/
+.project
+*.classpath
+lint.xml
+*.ap_
+*.dex
+local.properties
+
+# INTELLIJ
+out/
+.idea/
+*.iml
+
+# ECLIPSE
+.metadata
+.classpath
+.project
+
+# JAVA
+.class
