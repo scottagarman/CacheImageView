@@ -40,6 +40,7 @@ public class CacheImageView extends ImageView implements ImageLoader.ImageLoader
     }
     
     public void setImageUrl(String url) {
+        setImageBitmap(null);
         cancelRequest();
         if(url != null) {
             mImageUrl = url;
